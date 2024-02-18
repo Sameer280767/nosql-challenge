@@ -17,21 +17,21 @@ In Part 2, we make various modifications to the database as follows
 In Part 3, we explore the database to answer specific questions from the magazine editors. We use the Jupyter Notebook named NoSQL_analysis_starter.ipynb for this analysis.
 We write queries to answer the following 4 questions
 
-# Question 1. What is the number of documents in collection: establishments having Hygiene score equal to 20?
-# Answer 1. 41 documents
+#Question 1. What is the number of documents in collection: establishments having Hygiene score equal to 20?
+#Answer 1. 41 documents
 
-# Question 2. Which establishments in London have a RatingValue greater than or equal to 4?
-# Answer 2. 33
+#Question 2. Which establishments in London have a RatingValue greater than or equal to 4?
+#Answer 2. 33
 
-# Question 3. What are the top 5 establishments with a RatingValue rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
-# Answer 3. Nearest is defined as within 0.01 degree on either side of the latitude and longitude. These are
+#Question 3. What are the top 5 establishments with a RatingValue rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
+#Answer 3. Nearest is defined as within 0.01 degree on either side of the latitude and longitude. These are
    'BusinessName': 'Volunteer'
    'BusinessName': 'Plumstead Manor Nursery'
    'BusinessName': 'Atlantic Fish Bar'
    'BusinessName': 'Iceland'
    'BusinessName': 'Howe and Co Fish and Chips - Van 17'
 
-# Question 4. How many establishments in each Local Authority area have a hygiene score of 0?
-# Answer 4. There are 55 documents where hygiene scores are zero sorted in descending order and grouped by LocalAuthorityName
+#Question 4. How many establishments in each Local Authority area have a hygiene score of 0?
+#Answer 4. There are 55 documents where hygiene scores are zero sorted in descending order and grouped by LocalAuthorityName
    
 
